@@ -1,7 +1,7 @@
 const COLORS = {
-    unVisited: "#FFD700", // 黄
-    visited: "#008000", // 绿
-    current: "#FF0000", // 红
+    unVisited: "#FFD700", // 
+    visited: "#008000", // 
+    current: "#FF0000", // 
     origin: '#0080ff',
     neighbor: '#00b3ff',
     edgeHighlight:'#db6009',
