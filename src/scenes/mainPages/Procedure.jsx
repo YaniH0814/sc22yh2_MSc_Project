@@ -11,7 +11,6 @@ import { isUndefined } from "lodash";
 import Settings from "../../components/Settings/Settings";
 
 import Module from "../../components/Module/Module";
-import FirstPrompt from "../../components/FirstPropmt/FirstPropmt";
 
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
@@ -260,7 +259,6 @@ export default function HomePage(props) {
                         </Grid>
                     </Grid>
                 </div>
-                {firstIn === true ? <FirstPrompt /> : <div />}
             </motion.div>
 
 
